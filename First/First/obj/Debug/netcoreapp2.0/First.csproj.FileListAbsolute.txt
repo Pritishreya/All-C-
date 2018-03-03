@@ -1,0 +1,11 @@
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\bin\Debug\netcoreapp2.0\First.deps.json
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\bin\Debug\netcoreapp2.0\First.runtimeconfig.json
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\bin\Debug\netcoreapp2.0\First.runtimeconfig.dev.json
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\bin\Debug\netcoreapp2.0\First.dll
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\bin\Debug\netcoreapp2.0\First.pdb
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\obj\Debug\netcoreapp2.0\First.csprojResolveAssemblyReference.cache
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\obj\Debug\netcoreapp2.0\First.csproj.CoreCompileInputs.cache
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\obj\Debug\netcoreapp2.0\First.AssemblyInfoInputs.cache
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\obj\Debug\netcoreapp2.0\First.AssemblyInfo.cs
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\obj\Debug\netcoreapp2.0\First.dll
+C:\Users\PRITI\Desktop\Priti\All C#\First\First\obj\Debug\netcoreapp2.0\First.pdb

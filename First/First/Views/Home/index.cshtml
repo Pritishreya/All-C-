@@ -1,0 +1,48 @@
+﻿@model IEnumerable<First.Models.Class>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>index</title>
+</head>
+<body>
+    <h2 align="center">List of Products as below</h2>
+    <table cellpadding="2" cellspacing="2" border="1"align="center">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Type</th>
+            <th>Operation</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.type)
+                </td>
+                <td>
+                    @Html.ActionLink("Update", "Update", new { name = item.name, price = item.price, quantity = item.quantity, type = item.type }) |
+                    @Html.ActionLink("Add", "Add", new { name = item.name, price = item.price, quantity = item.quantity, type = item.type }) |
+                    @Html.ActionLink("Delete", "Delete", new { name = item.name, price = item.price, quantity = item.quantity, type = item.type })
+                </td>
+            </tr>
+        }
+    </table>
+    <br /><br />
+    <label>Total item in the Product List:</label>@ViewBag.PrintNo
+    <br /><br />
+
+</body>
+</html>
